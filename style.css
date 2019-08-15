@@ -5,3 +5,9 @@
 #body #header #footer .container .majorArea {
     border: 1px solid black;
 }
+
+#header {
+    height: 105px;
+    width: 100%;
+    background-color: rgb(140,140,140);
+}
