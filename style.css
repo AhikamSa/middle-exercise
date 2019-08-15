@@ -55,11 +55,12 @@
     
 }
 #footer #footerContainer {
-    display: block;
-    color: black;
+    /* display: block;
+    color: black; */
     width: 900px;
     height: 38px;
     margin: 0 auto;
+    padding: 0 90px;
 }
 #footer #footerContainer ul {
     margin: 0 auto;
