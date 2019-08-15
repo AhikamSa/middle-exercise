@@ -16,9 +16,14 @@
     /* position: relative; */
     width: 100%;
     height: 100%;
-    background-color: rgb(140,140,140);
+    /* background-color: rgb(140,140,140); */
       /* display:   ; */
     }
+
+#upHeader {
+    width: 100%;
+    background-color: rgb(140,140,140)
+}
 
 #header {
     height: 105px;
@@ -88,16 +93,25 @@
 }
 .majorArea {
     display: grid;
+    grid-gap: 2px;
+    max-width: 900px;
+    margin: 0 auto;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto 0 200px;
- 
-    padding: 10px;
-    width: 300px;
+    padding: 10px 0;
+    /* width: 300px; */
     margin: 0 auto
 }
 .majorArea .grid-item {
-    padding: 20px;
-    border: 1px solid red;
-    font-size: 30px;
+    /* border: 1px solid red; */
+    /* font-size: 30px; */
     /* text-align: center; */
+    
+}
+.majorArea .grid-item .mainPics img {
+    display: block;
+    margin: 0 auto;
+    height: 355px;
+    width: 293;
+    border-radius: 0 0 7% 0;
 }
