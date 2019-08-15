@@ -34,7 +34,7 @@
       /* display: none; */
 }
 #searchButton img {
-    margin: -50% -30%;
+    margin: -4.5px;
       /* display: none; */
 }
 #leftBox span {
@@ -44,7 +44,7 @@
     /* display: none; */
 }
 #footer {   
-    position: relative;
+    position: fixed;
     /* top: 810px; */
     top: 600px;
     height: 40px;
@@ -70,6 +70,10 @@
 
 #footer #footerContainer ul li a {
     text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+    margin: 0 5px;
 }
 
 #footer #footerContainer ul li img {
