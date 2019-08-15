@@ -24,21 +24,8 @@
     margin: 0 auto;
     background-color: rgb(140,140,140);
 }
-#language > ul > li > a {
-    direction: rtl;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: 700;
-    color: white;
-    text-decoration-line: none;
-    text-decoration-style: solid;
-}
-#header #searchbox {
-    float:  left;
-    /* display: inline-block; */
-    left: 60px;
-    top: 30px;
-    width: 132px;
-    height: 19px;
-    background: url(\Sources\images\search_button.png)
+#leftBox {
+    float: left;
+    
+
 }
