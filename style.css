@@ -11,3 +11,9 @@
     width: 100%;
     background-color: rgb(140,140,140);
 }
+#body {
+    direction: rtl;
+}
+.container {
+    width: 900px;
+}
