@@ -15,6 +15,7 @@
     width: 900px;
     /* position: relative; */
     width: 100%;
+    height: 100%;
     background-color: rgb(140,140,140);
       /* display:   ; */
     }
@@ -87,11 +88,16 @@
 }
 .majorArea {
     display: grid;
-    grid-template-columns: auto auto auto;  
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto 0 200px;
+ 
     padding: 10px;
     width: 300px;
     margin: 0 auto
 }
 .majorArea .grid-item {
-    
+    padding: 20px;
+    border: 1px solid red;
+    font-size: 30px;
+    /* text-align: center; */
 }
