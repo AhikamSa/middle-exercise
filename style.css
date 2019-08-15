@@ -26,6 +26,14 @@
 }
 #leftBox {
     float: left;
-    
-
+    margin-top: 35px;
+    margin-left: 10px;
+}
+#searchButton img {
+    margin: -50% -30%;
+}
+#leftBox span {
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
 }
