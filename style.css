@@ -9,12 +9,14 @@
 #body {
     direction: rtl;
     font-family: Arial;
+      /* display: none; */
 }
 .container {
     width: 900px;
     /* position: relative; */
     width: 100%;
     background-color: rgb(140,140,140);
+      /* display:   ; */
     }
 
 #header {
@@ -22,18 +24,54 @@
     position: relative;
     width: 900px;
     margin: 0 auto;
-    background-color: rgb(140,140,140);
+    background-color: rgb(140,140,140); 
+    /* display: none; */
 }
 #leftBox {
     float: left;
     margin-top: 35px;
     margin-left: 10px;
+      /* display: none; */
 }
 #searchButton img {
     margin: -50% -30%;
+      /* display: none; */
 }
 #leftBox span {
     color: white;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 12px;  
+    /* display: none; */
+}
+#footer {   
+    position: relative;
+    /* top: 810px; */
+    top: 600px;
+    height: 40px;
+    background-color: rgb(140,140, 130);
+      /* display: none; */
+    display: block;
+    
+}
+#footer #footerContainer ul li{
+    display: block;
+    float: right;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+#footer #footerContainer {
+    display: block;
+    color: black;
+    width: 900px;
+    height: 38px;
+    margin: 0 auto;
+}
+
+#footer #footerContainer ul li a {
+    text-decoration: none;
+}
+
+#footer #footerContainer ul li img {
+    color: white;
 }
