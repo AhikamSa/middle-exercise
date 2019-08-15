@@ -2,19 +2,34 @@
     box-sizing: border-box;
 }
 
-#body #header #footer .container .majorArea {
+#body , #header , #footer , .container , .majorArea {
     border: 1px solid black;
 }
 
-#header {
-    height: 105px;
-    width: 100%;
-    background-color: rgb(140,140,140);
-}
 #body {
     direction: rtl;
+    font-family: Arial;
 }
 .container {
     width: 900px;
-    background-color: aquamarine;
+    /* position: relative; */
+    width: 100%;
+    background-color: rgb(140,140,140);
+    }
+
+#header {
+    height: 105px;
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    background-color: rgb(140,140,140);
+}
+#language > ul > li > a {
+    direction: rtl;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    text-decoration-line: none;
+    text-decoration-style: solid;
 }
