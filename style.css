@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-#body , #header , #footer , .container , .majorArea {
+#body , #header , #footer , .container , .majorArea , .input {
     border: 1px solid black;
 }
 
@@ -32,4 +32,13 @@
     color: white;
     text-decoration-line: none;
     text-decoration-style: solid;
+}
+#header #searchbox {
+    float:  left;
+    /* display: inline-block; */
+    left: 60px;
+    top: 30px;
+    width: 132px;
+    height: 19px;
+    background: url(\Sources\images\search_button.png)
 }
