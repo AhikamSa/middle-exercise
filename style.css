@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 #body , #header , #footer , .container , .majorArea , .input {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 #body {
@@ -98,7 +100,7 @@
     margin: 30px auto !important;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto 0 200px;
-    padding: 10px 0;
+    /* padding: 10px 0; */
     /* width: 300px; */
     margin: 0 auto
 }
@@ -129,4 +131,28 @@
 #netherPic3 img {
     direction: ltr;
     float: left;
+    display: block;
+}
+.netherPics span {
+    display: block;
+}
+.netherPics span a .readMore{
+    /* float: right; */
+    /* display: block; */
+    color: #72716d;
+    
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: lighter;
+    margin: 0;    
+}
+
+.grid-item .netherPics .readMore {
+    background: url(sources\images\read_more_yellow.png);
+}
+.grid-item .netherPics .yellow {
+    direction: ltr;
+    text-decoration: none;
+    color: #72716d;
+    font-weight: lighter;
 }
