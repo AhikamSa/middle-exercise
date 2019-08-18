@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: arial;
 }
 
 #body , #header , #footer , .container , .majorArea , .input {
@@ -42,7 +43,10 @@
       /* display: none; */
 }
 #textSearch {
-    border-radius: 0 10px 0 0;
+    border-radius: 0 7px 0 0;
+    border-style: hidden;
+    width: 126px;
+    height: 19px;
 }
 #searchButton img {
     margin: -4.5px;
@@ -52,6 +56,7 @@
     color: white;
     font-weight: 700;
     font-size: 12px;  
+    margin-left: 10px;
     /* display: none; */
 }
 #footer {   
@@ -119,6 +124,27 @@
     height: 355px;
     width: 293;
     border-radius: 0 0 7% 0;
+}
+.grid-item .mainPics .textFC {
+    /* display: flex;
+    flex-wrap: wrap;
+    bottom: 50px; */
+    position: relative;
+    bottom: 110px;
+    color: #fff;
+    font-size: 14px !important;
+    margin:10px 10px 0 40px;
+    background-color: rgba(100, 100, 100, 0.8);
+    padding: 0 4px;
+    /* width:  228px; */
+    border-radius: 0 0 12px 0;
+    
+}
+.grid-item .mainPics .textFC p {
+    width: 228px;
+}
+.grid-item .mainPics .textFC .fcTitle {
+    font-weight: bold;
 }
 .grid-item .netherPics {
     color: rgb(87, 87, 87);
