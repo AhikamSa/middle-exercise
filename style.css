@@ -59,6 +59,12 @@
     margin-left: 10px;
     /* display: none; */
 }
+#HaederNavBar  span {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 #footer {   
     position: fixed;
     /* top: 810px; */
