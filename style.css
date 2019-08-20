@@ -63,7 +63,19 @@
     color: #fff;
     font-size: 15px;
     font-weight: bold;
+    margin: 0 5px;
 }
+/* #HaederNavBar  span.lineNav {
+    background-image: url(Sources\images\header_bg.png);
+    background:url(/web/20171013071424im_/http://paz.co.il/images/menu_sep.png) no-repeat 0 0px;
+    width: 4px;
+    height: 21px;
+
+    z-index: 300;
+    float: right;
+    position: relative;
+    display: block;
+} */
 
 #footer {   
     position: fixed;
