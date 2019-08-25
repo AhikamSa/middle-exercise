@@ -59,11 +59,21 @@
     margin-left: 10px;
     /* display: none; */
 }
+/* #headerNavBar {
+    border: solid 1px greenyellow;
+} */
 #HaederNavBar  span {
     color: #fff;
     font-size: 15px;
     font-weight: bold;
     margin: 0 5px;
+    border: solid 1px black;
+}
+#paz.logo {
+    position: relative;
+    float: right;
+    up: 50px;
+
 }
 /* #HaederNavBar  span.lineNav {
     background-image: url(Sources\images\header_bg.png);
