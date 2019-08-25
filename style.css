@@ -4,11 +4,6 @@
     padding: 0;
     font-family: arial;
 }
-
-#body , #header , #footer , .container , .majorArea , .input {
-    /* border: 1px solid black; */
-}
-
 #body {
     direction: rtl;
     font-family: Arial;
@@ -16,18 +11,13 @@
 }
 .container {
     width: 900px;
-    /* position: relative; */
     width: 100%;
     height: 100%;
-    /* background-color: rgb(140,140,140); */
-      /* display:   ; */
     }
-
 #upHeader {
     width: 100%;
     background-color: rgb(140,140,140)
 }
-
 #header {
     height: 105px;
     position: relative;
@@ -50,7 +40,6 @@
 }
 #searchButton img {
     margin: -4.5px;
-      /* display: none; */
 }
 #leftBox span {
     color: white;
@@ -65,8 +54,6 @@
 }
 
 #HaederNavBar  {
-    /* position: absolute; */
-    /* float: right; */
     display: flex;
     flex-direction: row;
     width: 910px;
@@ -74,7 +61,6 @@
     font-size: 15px;
     font-weight: bold;
     margin: 0 5px;
-    /* border: solid 1px black; */
 }
 #HaederNavBar .navBar {
     margin: 20px 15px;
@@ -91,25 +77,18 @@
     bottom: -20px;
 }
  #HaederNavBar  span.lineNav {
-    /* background-image: url(Sources\images\header_bg.png); */
     background:url(Sources/images/menu_sep.png) no-repeat 0 0px;
     width: 4px;
     height: 21px;
     z-index: 300;
-    /* float: right; */
-    /* position: absolute;  */
-    /* display: block; */
     margin: 20px 0 0 0;
 } 
-
 #footer {   
     position: fixed;
-    /* top: 810px; */
     bottom: 0%;
     width: 100%;
     height: 40px;
     background-color: rgb(140,140, 130);
-      /* display: none; */
     display: block;
     
 }
@@ -131,8 +110,6 @@
     text-decoration: none;
     list-style-type: none;
 }
-
-
 #footer #footerContainer ul li a {
     text-decoration: none;
     color: white;
@@ -140,7 +117,6 @@
     font-size: 14px;
     margin: 0 5px;
 }
-
 #footer #footerContainer ul li img {
     color: white;
 }
@@ -151,11 +127,8 @@
     margin: 30px auto !important;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto 0 200px;
-    /* padding: 10px 0; */
-    /* width: 300px; */
     margin: 0 auto
 }
-
 .majorArea .grid-item .mainPics img {
     display: block;
     margin: 0 auto;
@@ -171,8 +144,7 @@
     margin:10px 10px 0 40px;
     background-color: rgba(100, 100, 100, 0.8);
     padding: 0 4px;
-    border-radius: 0 0 12px 0;
-    
+    border-radius: 0 0 12px 0; 
 }
 .grid-item .mainPics .textFC p {
     width: 228px;
@@ -224,12 +196,10 @@
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    /* z-index: 1; */
   }
   
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
-    /* display: block; */
   }
