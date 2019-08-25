@@ -59,33 +59,40 @@
     margin-left: 10px;
     /* display: none; */
 }
-/* #headerNavBar {
-    border: solid 1px greenyellow;
-} */
-#HaederNavBar  span {
+
+#HaederNavBar  {
+    /* position: absolute; */
+    /* float: right; */
+    display: flex;
+    flex-direction: row;
+    width: 910px;
     color: #fff;
     font-size: 15px;
     font-weight: bold;
     margin: 0 5px;
     border: solid 1px black;
 }
-#paz.logo {
-    position: relative;
-    float: right;
-    up: 50px;
-
+#HaederNavBar .navBar {
+    margin: 0 15px;
 }
-/* #HaederNavBar  span.lineNav {
-    background-image: url(Sources\images\header_bg.png);
-    background:url(/web/20171013071424im_/http://paz.co.il/images/menu_sep.png) no-repeat 0 0px;
+#HaederNavBar #paz.logo {
+   
+    position: absolute;
+    flex: content;
+    height: 50px;
+    width: 50px;
+}
+ #HaederNavBar  span.lineNav {
+    /* background-image: url(Sources\images\header_bg.png); */
+    background:url(Sources/images/menu_sep.png) no-repeat 0 0px;
     width: 4px;
     height: 21px;
-
     z-index: 300;
-    float: right;
-    position: relative;
-    display: block;
-} */
+    /* float: right; */
+    position: absolute; 
+    /* display: block; */
+    margin: 80px 0 0 0;
+} 
 
 #footer {   
     position: fixed;
