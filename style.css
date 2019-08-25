@@ -74,17 +74,21 @@
     font-size: 15px;
     font-weight: bold;
     margin: 0 5px;
-    border: solid 1px black;
+    /* border: solid 1px black; */
 }
 #HaederNavBar .navBar {
-    margin: 0 15px;
-}
-#HaederNavBar #paz.logo {
+    margin: 20px 15px;
+ }
+ #HaederNavBar .navBar a {
+     color: #fff;
+     text-decoration: none;
+ }
+#HaederNavBar #paz.logo a {
    
-    position: absolute;
-    flex: content;
-    height: 50px;
-    width: 50px;
+    position:  absolute;
+    height: 80px;
+    width: 80px;
+    bottom: -20px;
 }
  #HaederNavBar  span.lineNav {
     /* background-image: url(Sources\images\header_bg.png); */
@@ -93,9 +97,9 @@
     height: 21px;
     z-index: 300;
     /* float: right; */
-    position: absolute; 
+    /* position: absolute;  */
     /* display: block; */
-    margin: 80px 0 0 0;
+    margin: 20px 0 0 0;
 } 
 
 #footer {   
@@ -199,10 +203,12 @@
 #netherPic3 img {
     direction: ltr;
     float: left;
-    display: block;
+    display: inline;
 }
+
 .netherPics span {
     display: block;
+ 
 }
 .netherPics span a .readMore{
     /* float: right; */
