@@ -59,6 +59,10 @@
     margin-left: 10px;
     /* display: none; */
 }
+#homebutton img {
+    height: 30px;
+    margin: 15px 10px 0 ;
+}
 
 #HaederNavBar  {
     /* position: absolute; */
